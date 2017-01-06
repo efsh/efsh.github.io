@@ -10,15 +10,19 @@
 </head>
 <body>
 	<h2>Social Mashups</h2>
+	
+	<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+	</fb:login-button>
+
+	<div id="status">
+	</div>
+	
 	<div
 		class="fb-like"
 		data-share="true"
 		data-width="450"
 		data-show-faces="true">
 	</div>
-	
-	
-	<div class="fb-login-button" data-max-rows="1" data-size="large" data-show-faces="false" data-auto-logout-link="false"></div>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
