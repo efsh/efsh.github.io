@@ -67,6 +67,15 @@
       document.getElementById('status').innerHTML =
         'Thanks for logging in, ' + response.name + '!';
     });
+    
+    FB.api('/me/feed', function (response) {
+      if (response && !response.error) {
+        
+        console.log (response.data);
+        
+        }
+      }
+    );
   }
 
 
