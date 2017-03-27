@@ -1,6 +1,6 @@
-# Edufsh personal website
+# EFSH personal website
 
-### A personal webiste  
+### My personal website  
 
 `Version 0.1`
 
