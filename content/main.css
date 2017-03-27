@@ -1,6 +1,15 @@
 html {
-    background-color: burlywood;
+    background-color: #d0d0de;
 }
+
+@media screen and (max-width: 768px) {
+
+    html {
+        background-color: #989898;
+    }
+
+}
+
 nav {
 
 }
