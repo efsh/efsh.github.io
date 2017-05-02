@@ -9,18 +9,22 @@ lunchApp.controller('LunchCheckController', ['$scope', function LunchCheckContro
 	
 	function checkItens(){
 		
-		count = vm.itens.split(",").length;
-		if (count > 3) {
+		var list = vm.itens;
+		
+		if (list) {
 			
-			vm.message = "Too much!";
+			count = list.split(",").length;
+		
+			if (count > 3) {
+				vm.message = "Too much!";				
+			} else {
+				vm.message = "Enjoy!";
+			}
 			
 		} else {
 			
-			vm.message = "Enjoy!";
+			vm.message = "Please enter data first";
 			
 		}
-		
 	};
-	
-	
 }]);
