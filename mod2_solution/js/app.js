@@ -9,15 +9,14 @@
 	ToBuyController.$inject = ['ListService'];
 	function ToBuyController(ListService){
 		
-		var itemBuy = this;
+		var toBuy = this;
 
-		itemBuy.addItem = function () {
+		toBuy.addItem = function (itemBuy, itemIndex) {
 			ListService.addItem(itemBuy);
-		};
-
-		itemBuy.removeItem = function (itemIndex) {
 			ListService.removeItem(itemIndex);
 		};
+		
+		toBuy.items = ListService.getToBuyItems();
 
 
 	};
