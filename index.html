@@ -3,75 +3,83 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Edufsh Website</title>
-
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Eduardo Henriques' Page</title>
         <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-              integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-              crossorigin="anonymous">
-        <!-- Optional theme -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
-              integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
-              crossorigin="anonymous">
-        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
-
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="stylesheet" href="content/main.css">
-
     </head>
 
     <body>
+        
+        <nav id="navbar" role="navigation" class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <a class="navbar-brand" href="/">Eduardo Henriques</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <header>
-            <nav id="navbar" role="navigation">
-                <a href="#navbar" title="Top">Home</a>
-                <a href="#about-me" title="About me">Who Am I?</a>
-                <a href="#carrer" title="Carrer">Carrer</a>
-                <a href="#tags" title="Tags">Tags</a>
-                <a href="https://www.linkedin.com/in/eduardohenriques/" target="_blank" title="LinkedIn">LinkedIn</a>
-            </nav>
-        </header>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/" title="Home">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="curriculum.html" title="Curriculum">Curriculum Vitae</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.linkedin.com/in/eduardohenriques/" target="_blank" title="LinkedIn">LinkedIn</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/efsh" target="_blank" title="Github">Github</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </nav>
 
-        <h1>Eduardo Henriques</h1>
-        <section id="about-me">
-            <h2 id="about-me">Who Am I?</h2>
-            <article>                
-                <p>Hi, I'm Eduardo Henriques, 37, from Rio de Janeiro / Brazil. Actually I'm an experienced Java developer 
-                    with a demonstrated history of working in the information technology and services industry. 
-                    Skilled in AngularJS, PHP, JavaScript, Java and End-to-end Testing. Strong analysis 
-                    professional with a Bachelor's degree focused in Computer Science from Universidade Federal Fluminense</p>
-            </article>
-            <h2 id="carrer">Carrer</h2>
-            <article>
-                <p></p>
-                <p>I have started my career on the Intern Program on Infoglobo (the largest newspaper in Brazil), in 2007.</p>
-            </article>
-            <h2 id="tags">Tags</h2>
-            <article>
-                <p>Full-stack developer, HTML, CSS, JavaScript, PHP, Java</p>
-            </article>
-        </section>
+        <main role="main">
+            <div class="jumbotron">
+                <div class="container">
+                    <h1 class="display-4">Who Am I?</h1>
+                    <p class="lead">Hi, I'm Eduardo Henriques, 37, from Rio de Janeiro / Brazil. Actually I'm an experienced Java developer 
+                        with a demonstrated history of working in the information technology and services industry. 
+                        Skilled in AngularJS, PHP, JavaScript, Java and End-to-end Testing. Strong analysis 
+                        professional with a Bachelor's degree focused in Computer Science from Universidade Federal Fluminense</p>
+                    <a class="btn btn-lg btn-primary" href="curriculum.html" role="button">Curriculum Vitae &raquo;</a>
+                </div>
+            </div>
 
-        <a href="#navbar">Top</a>
-        <hr />
-
-        <footer>
-            2020 - EFSH Copyright &copy; All rights reserved
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h2>Carrer</h2>
+                        <p>I have started my career on the Intern Program on Infoglobo (the largest newspaper in Brazil), in 2007...</p>
+                        <p><a class="btn btn-secondary" href="#" role="button">Read more &raquo;</a></p>
+                    </div>
+                    <div class="col-md-4">
+                        <h2>Skills</h2>
+                        <ul>
+                            <li>Java</li>
+                            <li>PHP</li>
+                            <li>Oracle</li>
+                            <li>MySQL</li>
+                            <li>Apache Lucene Solr</li>
+                        </ul>
+                        <p><a class="btn btn-secondary" href="#" role="button">Read more &raquo;</a></p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+        <footer class="footer mt-auto py-3">
+            <div class="container">
+                <span class="text-muted">2020 - Edufsh copyright &copy; All rights reserved</span>
+            </div>
         </footer>
 
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <!-- Latest compiled and minified JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-                integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-                crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
     </body>
 </html>
-
