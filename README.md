@@ -1,6 +1,9 @@
-# EFSH personal website
+# Edufsh Website
 
 ### My personal website  
 
-`Version 0.1`
+`Version 1.0`
 
+- About me
+- Curriculum Vitae
+- Skills
